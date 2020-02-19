@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/zfq/Code/C++/library/Student.h
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+
+D:/zfq/Code/C++/library/Vector.cpp
+Student.h
+D:/zfq/Code/C++/library/Student.h
+
+D:/zfq/Code/C++/library/main.cpp
+Student.h
+D:/zfq/Code/C++/library/Student.h
+
